@@ -17,6 +17,7 @@ module.exports = postcss.plugin('postcss-reset-important', function (opts) {
   const requireExplicit = !!opts.requireExplicit;
   const noImportant = !!opts.noImportant;
   const props = opts.props || {
+    all: 'initial',
     color: 'inherit',
     margin: '0',
     padding: '0',
