@@ -1,6 +1,6 @@
 {
   "name": "postcss-reset-important",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PostCSS plugin for reseting all styles using !important, and making your own styles !important",
   "keywords": [
     "postcss",
