@@ -1,0 +1,38 @@
+{
+  "name": "postcss-reset-important",
+  "version": "0.0.0",
+  "description": "PostCSS plugin for reseting all styles using !important, and making your own styles !important",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "browser-extension",
+    "chrome-extension",
+    "reset",
+    "important"
+  ],
+  "author": "Frankie Bagnardi <f.bagnardi@gmail.com>",
+  "license": "MIT",
+  "repository": "brigand/postcss-reset-important",
+  "bugs": {
+    "url": "https://github.com/brigand/postcss-reset-important/issues"
+  },
+  "homepage": "https://github.com/brigand/postcss-reset-important",
+  "dependencies": {
+    "postcss": "^6.0.16"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^21.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
