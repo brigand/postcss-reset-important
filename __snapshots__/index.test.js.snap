@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`adds important to own classes 1`] = `"a{ margin: 0 !important; padding: 0 !important; border: 0 !important; font-size: 100% !important; font: inherit !important; vertical-align: baseline !important; color: red !important; }"`;
+
+exports[`does basic reset 1`] = `
+"a{
+    color: inherit !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    font-size: 100% !important;
+    font: inherit !important;
+    vertical-align: baseline !important }"
+`;
+
+exports[`no reset with reset: false 1`] = `"a{ }"`;
